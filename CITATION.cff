@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this educational project, please cite it using these metadata."
+title: "Quantum Convolutional Neural Network"
+version: 1.0.0
+date-released: 2026-09-16
+authors:
+  - name: "School of AI and School of QC"
+license: MIT
+repository-code: "https://github.com/vivianaranha/quantum-convolutional-neural-network"
+url: "https://github.com/vivianaranha/quantum-convolutional-neural-network"
+keywords:
+  - quantum machine learning
+  - quantum convolutional neural network
+  - image classification
+  - reproducible benchmark
+abstract: >-
+  A reproducible eight-qubit quantum convolutional neural network for synthetic
+  image classification, compared with matched-input classical baselines.

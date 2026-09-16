@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-convolutional-neural-network"
+version = "1.0.0"
+description = "A reproducible eight-qubit QCNN image classifier with classical baselines."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "School of AI and School of QC"}]
+keywords = ["quantum-computing", "quantum-machine-learning", "qcnn", "image-classification"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "joblib>=1.4,<2",
+  "matplotlib>=3.9,<4",
+  "numpy>=2.0,<3",
+  "pandas>=2.2,<3",
+  "qiskit>=2.2,<3",
+  "scikit-learn>=1.5,<2",
+  "scipy>=1.14,<2",
+  "streamlit>=1.40,<2",
+]
+
+[project.optional-dependencies]
+dev = ["build>=1.2,<2", "pytest>=8.3,<9", "pytest-cov>=6,<8", "ruff>=0.9,<1"]
+
+[project.scripts]
+quantum-cnn = "quantum_cnn.cli:main"
+
+[project.urls]
+Repository = "https://github.com/vivianaranha/quantum-convolutional-neural-network"
+Documentation = "https://github.com/vivianaranha/quantum-convolutional-neural-network#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]

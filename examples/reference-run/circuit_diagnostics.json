@@ -1,0 +1,27 @@
+{
+  "active_qubits_by_stage": [
+    8,
+    4,
+    2,
+    1
+  ],
+  "circuit_depth": 20,
+  "classical_head_parameters": 2,
+  "convolution_stages": 3,
+  "execution": "exact NumPy statevector with Qiskit circuit parity",
+  "input_features": 8,
+  "logical_qubits": 8,
+  "operations": {
+    "barrier": 2,
+    "cx": 21,
+    "ry": 29,
+    "rz": 15
+  },
+  "parameterized_gate_occurrences": 28,
+  "shared_quantum_parameters": 12,
+  "shots": null,
+  "statevector_dimension": 256,
+  "statevector_passes_per_epoch": 57,
+  "statevector_passes_per_fit": 4560,
+  "total_trainable_parameters": 14
+}

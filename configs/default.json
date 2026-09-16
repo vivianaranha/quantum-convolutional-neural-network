@@ -1,0 +1,20 @@
+{
+  "image_noise": 0.16,
+  "image_size": 8,
+  "mlp_hidden_units": 8,
+  "mlp_max_iterations": 2000,
+  "noise_trials": 10,
+  "occlusion_probability": 0.25,
+  "output_root": "artifacts",
+  "parameter_noise": 0.04,
+  "qcnn_epochs": 80,
+  "qcnn_l2": 0.0005,
+  "qcnn_learning_rate": 0.05,
+  "random_seed": 42,
+  "repeats": 3,
+  "samples": 240,
+  "shot_count": 256,
+  "shot_trials": 10,
+  "split_seed_offset": 10000,
+  "test_size": 0.3
+}

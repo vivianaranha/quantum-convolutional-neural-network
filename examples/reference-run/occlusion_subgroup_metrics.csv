@@ -1,0 +1,25 @@
+repeat,model,occluded,samples,accuracy
+0,Quantum Convolutional Neural Network,False,54,0.9629629629629629
+0,Quantum Convolutional Neural Network,True,18,0.9444444444444444
+0,Logistic Regression,False,54,0.4444444444444444
+0,Logistic Regression,True,18,0.5
+0,RBF SVM,False,54,1.0
+0,RBF SVM,True,18,1.0
+0,Neural Network,False,54,1.0
+0,Neural Network,True,18,1.0
+1,Quantum Convolutional Neural Network,False,59,0.864406779661017
+1,Quantum Convolutional Neural Network,True,13,0.6923076923076923
+1,Logistic Regression,False,59,0.4406779661016949
+1,Logistic Regression,True,13,0.38461538461538464
+1,RBF SVM,False,59,1.0
+1,RBF SVM,True,13,1.0
+1,Neural Network,False,59,0.9830508474576272
+1,Neural Network,True,13,1.0
+2,Quantum Convolutional Neural Network,False,51,0.8235294117647058
+2,Quantum Convolutional Neural Network,True,21,0.8095238095238095
+2,Logistic Regression,False,51,0.49019607843137253
+2,Logistic Regression,True,21,0.5238095238095238
+2,RBF SVM,False,51,1.0
+2,RBF SVM,True,21,0.9523809523809523
+2,Neural Network,False,51,1.0
+2,Neural Network,True,21,1.0

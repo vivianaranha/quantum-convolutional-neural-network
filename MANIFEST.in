@@ -1,0 +1,22 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CITATION.cff
+include CODE_OF_CONDUCT.md
+include CONTRIBUTING.md
+include PROJECT-MANIFEST.md
+include ROADMAP.md
+include SECURITY.md
+include app.py
+include requirements.txt
+include requirements-dev.txt
+include Makefile
+recursive-include configs *.json
+recursive-include docs *.md *.png
+recursive-include examples *.md *.csv *.json
+recursive-include notebooks *.ipynb
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include .streamlit *.toml
+
+# Created by School of AI and School of QC.

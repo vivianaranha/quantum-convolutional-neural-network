@@ -1,0 +1,3 @@
+model,split_wins_or_ties
+RBF SVM,2
+Neural Network,2
